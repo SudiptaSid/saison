@@ -1,0 +1,587 @@
+/* --------------------------------------------------------------------------------
+                            On Load Popup
+-------------------------------------------------------------------------------- */
+#update_modal {}
+#update_modal .modal-dialog {
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0px;
+}
+#update_modal .modal-dialog .modal-content {
+    background-color: #000;
+    border: none;
+    border-radius: 0px;
+}
+#update_modal .modal-dialog .modal-content .modal-body {
+    background-color: rgba(236, 55, 151, 0.5);
+    padding: 50px;
+}
+#update_modal .close {
+    opacity: 0.6;
+    text-shadow: none;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#update_modal h1 {
+    font-family: 'nicolas_cochin';
+    font-size:65px;
+    line-height:1;
+    color:#fff;
+    text-transform: uppercase;
+    margin:50px 0px 20px 0px;
+}
+#update_modal p {
+    font-family: 'nicolas_cochin';
+    font-size:30px;
+    line-height:1.2;
+    color:#fff;
+    text-transform: uppercase;
+}
+#update_modal form .inp_sec {
+    display: flex;
+}
+#update_modal form .form_grp {
+    font-family: 'nicolas_cochin';
+}
+#update_modal form .form_grp:first-child {
+    width: 30%;
+    border-right: 5px solid transparent;
+}
+#update_modal form .form_grp:last-child {
+    width:70%;
+}
+#update_modal form input {
+    padding: 10px 15px;
+    border: none;
+    line-height: 1;
+    width:100%;
+    height: 46px;
+    font-size:20px;
+}
+#update_modal form input::placeholder {
+    color:#000;
+}
+#update_modal .btn_div {
+    display: block;
+    text-align: right;
+    margin-top:15px;
+}
+/* --------------------------------------------------------------------------------
+                            Section 1
+-------------------------------------------------------------------------------- */
+#cs_section_1 {
+	background-image:url(../images/banner1.jpg);
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+	position: relative;
+	padding:150px 0px;
+	min-height:800px;
+}
+#cs_section_1 .caption {
+	position: absolute;
+    width: 100%;
+    top: 15em;
+}
+#cs_section_1 .caption h1 {
+	font-family: 'nicolas_cochin';
+    font-size: 90px;
+    line-height: 1;
+    color: #fff;
+    margin-bottom:0px;
+}
+#cs_section_1 .caption h1 span {
+	font-size:65px;
+	line-height:1;
+    display: block;
+}
+#cs_section_1 .caption p {
+	font-size:36px;
+	line-height:1;
+	color:rgba(255, 255, 255, 0.6);
+	margin-bottom:20px;
+}
+#cs_section_1 .caption .btn_pink {}
+/* --------------------------------------------------------------------------------
+                            Section 2
+-------------------------------------------------------------------------------- */
+#cs_sec2 {
+	background-image:url(../images/sec2_bg.jpg);
+}
+#cs_sec2.cs_sec_c .caption h2 {
+	color:#000;
+}
+/* --------------------------------------------------------------------------------
+                            Section 3
+-------------------------------------------------------------------------------- */
+#cs_sec3 {
+	background-image:url(../images/sec3_bg.jpg);
+}
+#cs_sec3.cs_sec_c .caption h2 {
+	text-shadow: 2px 2px 6px #000;
+}
+/* --------------------------------------------------------------------------------
+                            Section 4
+-------------------------------------------------------------------------------- */
+#cs_sec4 {
+	background-image:url(../images/sec4_bg.jpg);
+}
+#cs_sec4.cs_sec_c .caption h2 {
+	text-shadow: 2px 2px 6px #000;
+}
+/* --------------------------------------------------------------------------------
+                            Section 5
+-------------------------------------------------------------------------------- */
+#cs_sec5 {
+	background-image:url(../images/sec5_bg.jpg);
+	background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    position: relative;
+    padding:100px 0px;
+}
+#cs_sec5 .caption {}
+#cs_sec5 .caption h2 {
+	font-family: 'nicolas_cochin';
+    font-size: 46px;
+    line-height: 1;
+    color: #fff;
+    margin-bottom:20px;
+    text-transform: uppercase;
+}
+#cs_sec5 .caption h3 {
+	font-family: 'nicolas_cochin';
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+    margin-bottom:20px;
+    text-transform: uppercase;
+}
+#cs_sec5 .caption p {
+	font-size:26px;
+	line-height:1.3;
+	margin-bottom:40px;
+	color:rgba(255, 255, 255, 0.8);
+}
+#cs_sec5 .caption p:last-child {
+	margin-bottom:0px;
+}
+/* --------------------------------------------------------------------------------
+                            About Page
+-------------------------------------------------------------------------------- */
+#cs_about_page {
+	background-image: url(../images/about_us_p_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    min-height: 800px;
+}
+#cs_about_page .caption {
+    position: absolute;
+    width: 50%;
+    top: 10em;
+}
+#cs_about_page .caption h1 {
+    font-family: 'nicolas_cochin';
+    font-size: 65px;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 0px;
+}
+#cs_about_page .caption p {
+    font-size: 36px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 50px;
+}
+#cs_about_page .caption p:last-child {
+	margin-bottom:0px;
+}
+#cs_about_page_body {
+	padding:80px 0px;
+}
+#cs_about_page_body .grid_l {
+	margin-bottom:100px;
+}
+#cs_about_page_body .grid_l:last-child {}
+#cs_about_page_body .grid_l h3 {
+	font-family: nicolas_cochin;
+	font-size:26px;
+	line-height:1;
+	margin-bottom:10px;
+}
+#cs_about_page_body .grid_l p {
+	font-size:26px;	
+	color: rgba(0, 0, 0, 0.8);
+	margin-bottom:0px;
+}
+/* --------------------------------------------------------------------------------
+                            Contact Page
+-------------------------------------------------------------------------------- */
+#cs_contact_page {
+	background-image: url(../images/contact_p_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding:150px 0px 50px 0px;
+}
+#cs_contact_page .caption {}
+#cs_contact_page .caption h1 {
+    font-family: 'nicolas_cochin';
+    font-size: 65px;
+    line-height: 65px;
+    color: #000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#cs_contact_page .caption .white_box {
+	background-color:rgba(255, 255, 255, 0.85);
+	padding:50px;
+}
+#cs_contact_page .caption .form-group {
+    margin-bottom:30px;
+}
+#cs_contact_page .caption label {
+    font-weight:800;
+    margin-bottom:0px;
+    font-size:18px;
+}
+#cs_contact_page .caption .form-control {
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
+}
+#cs_contact_page .caption #form_1 {
+    margin-bottom:50px;
+}
+#cs_contact_page .caption #form_2 {}
+#cs_contact_page .caption #form_2 p {
+    margin-bottom:0px;
+    font-size:18px;
+    font-weight:400;
+}
+#cs_contact_page .caption #form_2 p  strong {
+    font-weight:800;
+}
+#cs_contact_page .caption #form_2 .form_grp {
+    display:flex;
+}
+#cs_contact_page .caption #form_2 .form_grp div:nth-child(1) {
+    width:20%;
+}
+#cs_contact_page .caption #form_2 .form_grp div:nth-child(2) {
+    width:55%;
+    padding:0px 10px;
+}
+#cs_contact_page .caption #form_2 .form_grp div:nth-child(3) {
+    width:25%;
+}
+#cs_contact_page .caption .white_box_s {
+    padding:15px 25px;
+    background-color:rgba(255, 255, 255, 1);
+    border:1px solid rgba(0, 0, 0, 0.2);
+}
+#cs_contact_page .caption .white_box_s p {
+    font-size: 18px;
+    font-weight:300;
+    margin-bottom:0px;
+    padding:15px 0px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
+}
+#cs_contact_page .caption .white_box_s p:last-child {
+    border-bottom: none;
+    word-break: break-all;
+}
+#cs_contact_page .caption .white_box_s p strong {
+    font-weight:800;
+}
+#cs_contact_page .caption .white_box_s p span {
+    display: block;
+}
+/* --------------------------------------------------------------------------------
+                            Faq Page
+-------------------------------------------------------------------------------- */
+#cs_faq_page {
+    background-image: url(../images/faq_p_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    min-height: 700px;
+}
+#cs_faq_page .caption {
+    position: absolute;
+    top: 15em;
+    width: 25%;
+}
+#cs_faq_page .caption h1 {
+    font-family: 'nicolas_cochin';
+    font-size: 65px;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#cs_faq_page .caption p {
+    font-size: 30px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+}
+#cs_faq_page_body .grid_l {
+    padding: 50px 0px;
+}
+#cs_faq_page_body .grid_l:nth-child(odd) {
+    background-color: rgba(236, 55, 151, 0.11);
+}
+#cs_faq_page_body .grid_l h3 {
+    font-family: nicolas_cochin;
+    font-size: 26px;
+    line-height: 1;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#cs_faq_page_body .grid_l p {
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0px;
+}
+/* --------------------------------------------------------------------------------
+                            Shop Page
+-------------------------------------------------------------------------------- */
+#cs_shop_page {
+    background-image: url(../images/shop_p_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding:150px 0;
+}
+#cs_shop_page .caption {
+    text-align: right;
+}
+#cs_shop_page .caption h1 {
+    font-family: 'nicolas_cochin';
+    font-size: 45px;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#cs_shop_page_body {}
+#cs_shop_page_body .pink_bg {
+    background-color:#ec3797;
+    padding:50px 0px;
+}
+#cs_shop_page_body .pink_bg h3 {
+    font-family: 'nicolas_cochin';
+    font-size: 45px;
+    line-height:1;
+    margin-bottom:0px;
+    color:rgba(255, 255, 255, 0.75);
+}
+#cs_shop_page_body .section1 {
+    padding:60px 0px;
+}
+#cs_shop_page_body .section1 .grid {
+    margin-bottom:30px;
+}
+#cs_shop_page_body .section1 .grid .img_sec {
+    display: block;
+    overflow:hidden;
+}
+#cs_shop_page_body .section1 .grid .img_sec img {
+    transition:0.6s;
+}
+#cs_shop_page_body .section1 .grid:hover .img_sec img {
+    transform:scale(1.1) rotate(5deg);
+}
+#cs_shop_page_body .section1 .grid .details_sec {
+    padding:15px;
+}
+#cs_shop_page_body .section1 .grid .details_sec a.title {
+    font-size:18px;
+    font-weight:300;
+    color:rgba(0, 0, 0, 0.75);
+}
+#cs_shop_page_body .section1 .grid:hover .details_sec a.title {
+    color:#ec3797;
+}
+#cs_shop_page_body .section1 .grid .details_sec .price {
+    font-size:18px;
+    font-weight:300;
+    color:rgba(0, 0, 0, 0.75);
+}
+#cs_shop_page_body .section1 .grid .details_sec .btn_pink {
+    font-size:12px;
+    text-transform: uppercase;
+    letter-spacing:2px;
+}
+#cs_shop_page_body .section1 .container_sml {
+    max-width: 840px;
+}
+#cs_shop_page_body .section2 {
+    padding:60px 0px;
+}
+#cs_shop_page_body .section2 p {
+    font-family: 'nicolas_cochin';
+    font-size: 45px;
+    line-height:1;
+    margin-bottom:30px;
+    color:rgba(0, 0, 0, 0.75);
+}
+#cs_shop_page_body .section2 .img_sec {
+    display: block;
+    overflow:hidden;
+    margin-bottom:30px;
+}
+#cs_shop_page_body .section2 .img_sec img {
+    transition:0.6s;
+}
+#cs_shop_page_body .section2 .img_sec:hover img {
+    transform:scale(1.1) rotate(5deg);
+}
+/* --------------------------------------------------------------------------------
+                            Cart Page
+-------------------------------------------------------------------------------- */
+#cs_cart_page {
+    padding:80px 0px;
+}
+#cs_cart_page .grid_left {
+    
+}
+#cs_cart_page .grid_left .title {
+    color:#ec3797;
+    font-size:32px;
+    text-transform: uppercase;
+    font-weight:300;
+    margin-bottom:5px;
+}
+#cs_cart_page .grid_left .price {
+    font-size:32px;
+    text-transform: uppercase;
+    font-weight:300;
+    color:rgba(0, 0, 0, 0.75);
+    margin-bottom:30px;
+}
+#cs_cart_page .grid_left p {
+    font-size:18px;
+    font-weight:300;
+    color:rgba(0, 0, 0, 0.75);
+    margin-bottom:5px;
+}
+#cs_cart_page .grid_left p strong {
+    font-weight:800;
+}
+#cs_cart_page .grid_left .color_cs {
+    margin-top:30px;
+}
+#cs_cart_page .grid_left .color_cs li {
+    display: inline-block;
+    margin-right:5px;
+}
+#cs_cart_page .grid_left .color_cs li a {
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    overflow:hidden;
+    display: block;
+}
+#cs_cart_page .grid_left .color_cs li a img {
+    transition:0.6s;
+}
+#cs_cart_page .grid_left .color_cs li a:hover img {
+    transform:scale(1.1);
+    opacity:0.8;
+}
+#cs_cart_page .grid_left .select_f {
+    display:flex;
+    margin-bottom:20px;
+}
+#cs_cart_page .grid_left .select_f .select_fg {
+    margin-right:10px;
+}
+#cs_cart_page .grid_left .select_f .select_fg .cs_select {
+    background-color:#7f7f7f;
+    color:rgba(255, 255, 255, 0.75);
+    width:150px;
+    padding:10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    background-image:url(../images/arrow_left.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 120px;
+    border: none;
+}
+#cs_cart_page .grid_left .add_to_cart {
+    display:flex;
+    margin-bottom:20px;
+}
+#cs_cart_page .grid_left .add_to_cart div {
+    margin-right:10px;
+}
+#cs_cart_page .grid_left .add_to_cart div label {
+    font-weight:800;
+    color:rgba(0, 0, 0, 0.8);
+    margin-top:5px;
+}
+#cs_cart_page .grid_left .add_to_cart div input {
+    background-color:#cccccc;
+    padding:8px 15px;
+    border:none;
+    height:40px;
+    width:100px;
+    text-align: center;
+}
+#cs_cart_page .grid_left .add_to_cart div .btn_pink {
+    font-size:12px;
+    height:40px;
+}
+#cs_cart_page .grid_left .cs_share {
+
+}
+#cs_cart_page .grid_left .cs_share li {
+    display: inline-block;
+}
+#cs_cart_page .grid_left .cs_share li span {
+    font-weight:800;
+    color:rgba(0, 0, 0, 0.6);
+    margin-right:15px;
+}
+#cs_cart_page .grid_left .cs_share li a {
+    font-size:20px;
+    color:rgba(0, 0, 0, 0.6);
+    display: block;
+    padding:10px;
+}
+#cs_cart_page .grid_left .cs_share li a:hover {
+    
+}
+#cs_cart_page .grid_right {
+    padding-left:100px;
+}
+#cs_cart_page .grid_right .img_sec {
+    margin-bottom:30px;
+}
+#cs_cart_page .grid_right .img_sec img {
+    
+}
+#cs_cart_page .grid_right .details_sec {
+    font-weight:300;
+    color:rgba(0, 0, 0, 0.75);
+}
+#cs_cart_page .grid_right .details_sec p {
+    font-size:12px;
+}
+#cs_cart_page .grid_right .details_sec p strong {
+    font-size:20px;
+}
